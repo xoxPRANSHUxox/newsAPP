@@ -1,0 +1,32 @@
+.main{
+    position: absolute;
+}
+
+.card-container
+{
+ width:100vw;
+ display: flex;
+ flex-wrap:wrap;
+ justify-content: center;
+ align-items: center;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-width: 20vw;
+    width:min-content;
+    height:fit-content;
+    margin: 0.5rem;
+    padding: 1rem;
+}
+
+.card-img-top {
+    width: 10vw;
+    height: 10vh;
+}
+
+.card-title, .btn{
+    font-size:1rem;
+}
